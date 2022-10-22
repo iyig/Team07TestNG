@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="smoke test">
+    <test name="smoke test">
+        <classes>
+            <class name="team07.US001"></class>
+            <class name="team07.US002"></class>
+        </classes>
+    </test>
+</suite>
