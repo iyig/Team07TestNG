@@ -28,5 +28,35 @@ public class Aslı {
     public WebElement submitButonu;
     @FindBy(xpath = "//*[contains(text(),'Coupon Successfully Published')]")
     public WebElement basariliGiris;
+    @FindBy(xpath = "//*[@id='description']")
+    public WebElement descriptionTextBox;
+    @FindBy(xpath = "//*[@id='wcfm_coupon_manager_draft_button']")
+    public WebElement draftButonu;
+    @FindBy(xpath = "//*[text()='Coupon Successfully Saved.']")
+    public WebElement degisiklikBasarili;
+    @FindBy(xpath = "//*[@id='discount_type']")
+    public WebElement discountTypeTextBox;
+    @FindBy(xpath = "//*[@id='coupon_amount']")
+    public WebElement couponAmountTextBox;
+    @FindBy(xpath = "//*[@id='expiry_date']")
+    public WebElement couponExpiryDate;
+    @FindBy(xpath = "//*[@id='minimum_amount']")
+    public WebElement minimumSpendTextBox;
+    @FindBy(xpath = "//*[@id='maximum_amount']")
+    public WebElement maximumSpendTextBox;
+    @FindBy(xpath = "//*[@id='individual_use']")
+    public WebElement individualUseOnly;
+    @FindBy(xpath = "//*[@id='exclude_sale_items']")
+    public WebElement excludeSaleItems;
+    @FindBy(xpath = "(//*[@class='select2-search__field'])[4]")
+    public WebElement excludeCategories;
+    @FindBy(xpath = "//*[@id='coupons_manage_limit']")
+    public WebElement limitButonu;
+    @FindBy(xpath = "//*[@id='usage_limit']")
+    public WebElement usageLimitPerCoupon;
+    @FindBy(xpath = "//*[@id='limit_usage_to_x_items']")
+    public WebElement limitUsagetoXItems;
+    @FindBy(xpath = "//*[@id='usage_limit_per_user']")
+    public WebElement usageLimitPerUser;
 
 }
