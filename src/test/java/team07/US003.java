@@ -24,7 +24,7 @@ public class US003 {
 
         // 3- Uygun email ve sifre giriniz.
         pearlyPage.username.sendKeys(ConfigReader.getProperty("email"));
-        pearlyPage.password.sendKeys(ConfigReader.getProperty("sifre"));
+        pearlyPage.password.sendKeys(ConfigReader.getProperty("password"));
         pearlyPage.girisYap2.click();
 
         // 4- myorders butonuna tiklayin
@@ -95,5 +95,6 @@ public class US003 {
         // pearlyPage.placeOrder.click();
         Assert.assertTrue(pearlyPage.siparisAlindi.isDisplayed(), "Siparisiniz Alinmistir");
         ReusableMethods.waitFor(5);
+        Driver.closeDriver();
     }
 }
