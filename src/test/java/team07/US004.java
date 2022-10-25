@@ -21,7 +21,7 @@ public class US004 {
     Actions actions = new Actions(Driver.getDriver());
 
     @Test
-    public void test01SepeteUrunEkle() throws InterruptedException, IOException {
+    public void US004() throws InterruptedException, IOException {
 
         // 1. SEÇİLEN ÜRÜNLER VİEW CARTTA GÖRÜLMELİ: RAKAM (fiyat), MİKTAR ve (ara) TOPLAM OLARAK GÖRÜLMELİ
         Driver.getDriver().get(ConfigReader.getProperty("url"));
