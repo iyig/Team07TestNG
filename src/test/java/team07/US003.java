@@ -1,4 +1,4 @@
-package tests;
+package team07;
 
 import com.github.javafaker.Faker;
 import org.openqa.selenium.JavascriptExecutor;
